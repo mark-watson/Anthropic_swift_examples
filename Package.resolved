@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "anthropicswiftsdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/fumito-ito/AnthropicSwiftSDK.git",
+      "state" : {
+        "revision" : "2cbf6640b547fdc95df4924540a488587177ff0f",
+        "version" : "0.12.0"
+      }
+    },
+    {
+      "identity" : "swiftyjsonlines",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/fumito-ito/SwiftyJSONLines.git",
+      "state" : {
+        "revision" : "fb957dada1e920b6916c7083e99895f8f7fc885a",
+        "version" : "0.0.3"
+      }
+    }
+  ],
+  "version" : 2
+}
