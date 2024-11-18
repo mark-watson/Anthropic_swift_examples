@@ -1,6 +1,6 @@
 # Anthropic Swift API examples
 
-Here, I decided to not write a new client library since there are secveral good ones already written.
+Here, I decided to not write a new client library since there are several good ones already written.
 
 This is not a strong recommendation of one library over another, but I enjoy using the following project because of the simplicity of the API:
 
