@@ -1,30 +1,23 @@
-// swift-tools-version:5.8
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
-    name: "Anthropic_swift_examples",
+    name: "HF_Transformers_swift_examples",
     platforms: [
-        .macOS("14.0")
+        .macOS(.v13),
+        .iOS(.v16)
     ],
     products: [
-        .library(
-            name: "Anthropic_swift_examples",
-            targets: ["Anthropic_swift_examples"]
-        ),
     ],
     dependencies: [
-        .package(url: "https://github.com/fumito-ito/AnthropicSwiftSDK.git", from: "0.8.0")
+        .package(url: "https://github.com/huggingface/swift-transformers.git", branch: "main")
     ],
     targets: [
-        .target(
-            name: "Anthropic_swift_examples",
-            dependencies: [
-                .product(name: "AnthropicSwiftSDK", package: "AnthropicSwiftSDK")
-            ]
-        ),
         .testTarget(
-            name: "Anthropic_swift_examplesTests",
-            dependencies: ["Anthropic_swift_examples"]
-        ),
+            name: "HF_Transformers_swift_examplesTests",
+            dependencies: [
+                .product(name: "Transformers", package: "swift-transformers")
+            ]
+        )
     ]
 )

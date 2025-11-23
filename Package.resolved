@@ -1,21 +1,30 @@
 {
   "pins" : [
     {
-      "identity" : "anthropicswiftsdk",
+      "identity" : "jinja",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/fumito-ito/AnthropicSwiftSDK.git",
+      "location" : "https://github.com/maiqingqiang/Jinja",
       "state" : {
-        "revision" : "2cbf6640b547fdc95df4924540a488587177ff0f",
-        "version" : "0.12.0"
+        "revision" : "6dbe4c449469fb586d0f7339f900f0dd4d78b167",
+        "version" : "1.0.6"
       }
     },
     {
-      "identity" : "swiftyjsonlines",
+      "identity" : "swift-argument-parser",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/fumito-ito/SwiftyJSONLines.git",
+      "location" : "https://github.com/apple/swift-argument-parser.git",
       "state" : {
-        "revision" : "fb957dada1e920b6916c7083e99895f8f7fc885a",
-        "version" : "0.0.3"
+        "revision" : "41982a3656a71c768319979febd796c6fd111d5c",
+        "version" : "1.5.0"
+      }
+    },
+    {
+      "identity" : "swift-transformers",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/huggingface/swift-transformers.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d42fdae473c49ea216671da8caae58e102d28709"
       }
     }
   ],
