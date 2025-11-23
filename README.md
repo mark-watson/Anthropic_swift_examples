@@ -1,5 +1,9 @@
 # Anthropic Swift API examples
 
+Example from my book "Artificial Intelligence Using Swift"
+
+You can read my book for free online at: https://leanpub.com/SwiftAI/read
+
 Here, I decided to not write a new client library since there are several good ones already written.
 
 This is not a strong recommendation of one library over another, but I enjoy using the following project because of the simplicity of the API:
@@ -25,7 +29,7 @@ All of the examples are packaged as Swift tests:
 
 This example is released using the Apache 2 license.
 
-Copyright 2022-2024 Mark Watson. All rights reserved.
+Copyright 2022-2025 Mark Watson. All rights reserved.
 
 ## This Book is Licensed with Creative Commons Attribution CC BY Version 3 That Allows Reuse In Derived Works
 
@@ -43,8 +47,6 @@ Mark Watson. Source: https://leanpub.com/SwiftAI
 ```
 
 This eBook will be updated occasionally so please periodically check the [leanpub.com web page for this book](https://leanpub.com/SwiftAI) for updates.
-
-This is the second edition released spring of December 2024.
 
 Please visit the [author's website](http://markwatson.com).
 
